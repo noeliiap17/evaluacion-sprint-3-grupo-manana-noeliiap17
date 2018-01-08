@@ -9,9 +9,9 @@
 	<title>Evaluacion Sprint 3</title>
 </head>
 <body>
-	<header class="background">
+	<header id="header" class="background">
 		<nav class="menu">
-		<button class="btn"><img src="/images/ico-menu.svg" alt=""></button>
+		<button class="btn"><img src="/images/ico-menu.svg" alt="menu"></button>
 			<ul>
 				<li>Anonymous proxy</li>
 				<li>Looking Through A Window</li>
@@ -23,19 +23,19 @@
 		<div class="phrase_container">
 			<h1 class="phrase">ANONYMOUS PROXY</h1>
 			<p>In hac habitasse platea dictumst</p>
-			<button type="button" name="button" class="down_button"><img src="/images/ico-scroll-down.svg" alt="down_button"></button>
+			<button type="button" name="button" class="down_button"><a href="#section1"><img src="/images/ico-scroll-down.svg" alt="down_button"></a></button>
 		</div>
 	</header>
 	<section>
-		<div>
-			<p class="paragraph">Insomnia tips</p>
+		<div id="section1" class="section1">
+			<p class="paragraph">Insomnia Tips</p>
 			<h2>Looking Through A Window</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
 			<button class="go-button">Go</button>
 		</div>
 	</section>
 	<section>
-		<div class="reason">
+		<div id="reasons" class="reason">
 			<div class="item item1">
 				<h2>3 Reason to Purchase</h2>
 			</div>
@@ -58,9 +58,11 @@
 	</section>
 	<footer class="footer">
 		<div class="footer_content">
-		<button type="button" name="button" class="down_button"><img src="/images/ico-arrow.svg" alt="down_button"></button>
+		<button type="button" name="button" class="up_button"><a href="#header"><img src="/images/ico-arrow.svg" alt="up_button"></a></button>
+		<div class="footer_paragraph">
 		<p>&copy;2017</p>
 		<p>we❤︎components</p>
+		</div>
 		</div>
 	</footer>
 

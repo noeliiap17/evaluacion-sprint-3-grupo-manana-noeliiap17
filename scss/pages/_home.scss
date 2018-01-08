@@ -5,9 +5,20 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 }
+.section1{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 
+}
 .paragraph {
-	color: $lightColour;
+	color: $colorLightBlue;
+	font-size: 14px;
+	line-height: 30px;
+}
+.text {
+	margin-bottom: 25px;
 }
 
 .reason {

@@ -2,11 +2,12 @@
 	width: 76px;
 	height: 45px;
 	border-radius: 22.5px;
-	border-style: solid;
+	border: solid 2px #f26002;
 	border-color: $brightColour;
 	color: $brightColour;
 	background-color: inherit;
-
+	font-size: 20px;
+	text-align: center;
 }
 .more_reason {
 	width: 184px;
@@ -17,7 +18,6 @@
 	background-color: $brightColour;
 	color: $whiteColour;
 	font-size: 20px;
-	
 }
 .btn {
 	width: 44px;
@@ -31,4 +31,19 @@
   background-color: #ffffff;
 	border-color:  #ffffff;
 	border-style: solid;
+	position: absolute;
+	top: 85%;
+}
+.up_button {
+	width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+	border-color:  #ffffff;
+	border-style: solid;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+
 }
