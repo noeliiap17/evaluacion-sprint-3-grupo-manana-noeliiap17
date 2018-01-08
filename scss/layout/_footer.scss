@@ -1,0 +1,13 @@
+.footer {
+	background-color: $darkColour;
+	height: 128px;
+}
+.footer_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: $whiteColour;
+}
+p {
+	margin: 0;
+}

@@ -1,0 +1,21 @@
+.background {
+	background-image: url(/images/cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.phrase_container {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20vh;
+	text-align: center;
+}
+.phrase {
+	color: white;
+	font-size: 42px;
+	line-height: 55px;
+}
