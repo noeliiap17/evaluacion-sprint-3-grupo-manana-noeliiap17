@@ -9,16 +9,18 @@
 	<title>Evaluacion Sprint 3</title>
 </head>
 <body>
-	<header id="header" class="background">
+	<header id="header" class="menu background">
 		<button class="btn menu-trigger"><img src="/images/ico-menu.svg" alt="menu"></button>
-		<nav class="menu page__navigation">
-			<button type="button" name="button"><img src="/images/ico-close.svg" alt=""></button>
-			<ul class="menu">
+		<nav class="page__navigation">
+			<div class="menu">
+				<ul class="menu_list">
 				<li class="menu__item"><a href="#header" class="menu__link">Anonimous proxy</a></li>
 				<li class="menu__item"><a href="#section1" class="menu__link">Looking Through A Window</a></li>
-				<li class="menu__item"><a href="#reasons" class="menu__link">3 Reason To Purchase</a></li>
+				<li class="menu__item last_item"><a href="#reasons" class="menu__link">3 Reason To Purchase</a></li>
 			</ul>
+			<button class="menu-close" type="close_button" name="close_button"><img src="/images/ico-close.svg" alt=""></button>
 		</nav>
+		</div>
 		<div class="phrase_container">
 			<h1 class="phrase">ANONYMOUS PROXY</h1>
 			<p>In hac habitasse platea dictumst</p>
@@ -60,7 +62,7 @@
 		<button type="button" name="button" class="up_button"><a href="#header"><img src="/images/ico-arrow.svg" alt="up_button"></a></button>
 		<div class="footer_paragraph">
 		<p>&copy;2017</p>
-		<p>we❤︎components</p>
+		<p>we <span class="quore">❤︎</span>components</p>
 		</div>
 		</div>
 	</footer>

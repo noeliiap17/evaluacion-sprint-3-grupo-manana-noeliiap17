@@ -1,0 +1,26 @@
+'use-strict';
+
+//Variables
+
+var menu = document.querySelector('.menu');
+var body = document.querySelector('body');
+var menuTrigger = menu.querySelector('.menu-trigger');
+var menuCloseBTN = menu.querySelector('.menu-close');
+var items = document.querySelectorAll('.menu__link');
+	for (var i = 0; i < items.length; i++) {
+		items[i].addEventListener('click', closeNavMenu)
+	}
+
+
+//Funciones
+function openNavMenu() {
+	body.classList.add('menu-visible');
+};
+
+function closeNavMenu() {
+	body.classList.remove('menu-visible');
+};
+
+//Buttons
+menuTrigger.addEventListener('click', openNavMenu);
+menuCloseBTN.addEventListener('click', closeNavMenu);

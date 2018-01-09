@@ -16,13 +16,24 @@
   background-color: #f26002;
   border-color: $brightColour;
 	background-color: $brightColour;
-	color: $whiteColour;
+	color: $colorWhite;
 	font-size: 20px;
 }
 .btn {
 	width: 44px;
   height: 44px;
   background-color: $lightColour;
+	background-color: #0271bc;
+	border: 0;
+}
+.menu-close {
+	width: 44px;
+  height: 44px;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background-color: $brightColour;
+	border: 0;
 }
 .down_button {
 	width: 45px;
@@ -45,5 +56,20 @@
 	left: 50%;
 	top: 0;
 	transform: translate(-50%, -50%);
+}
 
+@media all and (min-width: 768px) {
+	.down_button {
+		position: absolute;
+		top: 90%;
+	}
+	.more_reason {
+		width: 255px;
+		height: 45px;
+		border-radius: 22.5px;
+	}
+.go-button {
+	width: 160px;
+  height: 45px;
+ }
 }
