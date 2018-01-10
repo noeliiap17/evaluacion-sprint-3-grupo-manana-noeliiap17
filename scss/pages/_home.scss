@@ -3,26 +3,30 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 }
+.phrase_container {
+	width: 290px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+
 .section1{
 	margin: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 }
+.paragraph {
+	color: $colorLightBlue;
+	width: 290px;
+	font-size: 14px;
+	line-height: 30px;
+}
 .section2{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	background-color: $lighterBlueColor;
-}
-.button_reasons {
-	text-align: center;
-	padding: 30px;
-}
-.paragraph {
-	color: $colorLightBlue;
-	font-size: 14px;
-	line-height: 30px;
 }
 .text {
 	margin-bottom: 25px;
@@ -32,4 +36,24 @@ body {
 }
 p {
 	font-family: $fontRoboto;
+}
+
+@media all and (min-width: 768px) {
+	.phrase {
+		font-size: 80px;
+		margin: auto;
+	}
+	.phrase_container {
+		width: 690px;
+		margin: auto;
+		padding-top: 200px;
+	}
+
+}
+@media all and (min-width: 900px) {
+	.phrase {
+		width: 730px;
+		margin: auto;
+	}
+
 }

@@ -44,6 +44,7 @@
 	border-style: solid;
 	position: absolute;
 	top: 85%;
+
 }
 .up_button {
 	width: 45px;
@@ -56,6 +57,10 @@
 	left: 50%;
 	top: 0;
 	transform: translate(-50%, -50%);
+}
+.button_reasons {
+	text-align: center;
+	padding: 30px;
 }
 
 @media all and (min-width: 768px) {
